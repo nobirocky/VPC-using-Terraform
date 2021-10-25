@@ -52,7 +52,7 @@ vim variable.tf
 
 ```sh
 variable "project" {
-  default = "test"
+  default = "devops"
 }
 variable "access_key"{
   default = " "           #IAM user access_key
