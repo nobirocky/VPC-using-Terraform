@@ -115,7 +115,7 @@ output "availability_names" {
 ```
 > Outputs can be obtained from the below command
 ```sh
-terrafrom output
+terraform output
 ```
 https://www.terraform.io/docs/cli/commands/output.html
 
