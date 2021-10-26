@@ -102,9 +102,6 @@ provider "aws" {
 ## Availability Zones in AWS
 > This will fetch all available Availability Zones in working AWS region and store the details in variable az
 ```sh
-vim az.tf
-```
-```sh
 data "aws_availability_zones" "az" {
   state = "available"
 }
@@ -121,9 +118,6 @@ https://www.terraform.io/docs/cli/commands/output.html
 
 ## VPC
 - Create VPC resource
-```sh
-vim vpc.tf
-```
 ```sh
 ###################################################################
 # Vpc Creation
@@ -146,9 +140,6 @@ resource "aws_vpc" "vpc" {
 
 ## Internet GateWay
 ```sh
-vim igw.tf
-```
-```sh
 ###################################################################
 # Attaching Internet GateWay
 ###################################################################
@@ -168,9 +159,6 @@ resource "aws_internet_gateway" "igw" {
 ```
 
 ## Public and Private subents
-```sh
-vim subnet.tf
-```
 ```sh
 ###################################################################
 # Creating Public Subnet1
